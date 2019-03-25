@@ -9,15 +9,22 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>jbf-zull</artifactId>
+    <artifactId>jbf-spring-shiro</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jbf-zull</name>
+    <name>jbf-spring-shiro</name>
     <description>Demo project for Spring Boot</description>
+
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
@@ -25,6 +32,4 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
     </dependencies>
-
-
 </project>
