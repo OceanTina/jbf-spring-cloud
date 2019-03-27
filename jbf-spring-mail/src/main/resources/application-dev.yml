@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8099
+spring:
+  application:
+    name: jbf-spring-mail
+
+  mail:
+    host: smtp.126.com
+    username: zhangyunlong2046@126.com
+    password: zhangyunlong2046
+    default-encoding: utf-8
