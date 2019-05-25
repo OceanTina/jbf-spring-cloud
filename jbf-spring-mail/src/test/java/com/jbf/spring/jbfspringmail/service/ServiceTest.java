@@ -58,7 +58,7 @@ public class ServiceTest {
     public void sendTemplateMailTest() {
         Context context = new Context();
         context.setVariable("id", "2019");
-        String emailContent = templateEngine.process("emailTeamplate", context);
+        String emailContent = templateEngine.process("emailTemplate", context);
         javaMailUtil.sendHtmlMail("1160362008@qq.com","这是一封HTML邮件", emailContent);
 
     }
